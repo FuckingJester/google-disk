@@ -6,7 +6,7 @@ const authRouter = require('./routes/auth.route.js')
 const fileRouter = require('./routes/file.route.js')
 const corsMiddleware = require('./middleware/cors.middleware.js')
 const app = express();
-const PORT = config.get('serverPost');
+const PORT = config.get('serverPost') || 5000;
 const MONGO = config.get('db')
 
 
