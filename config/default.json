@@ -1,0 +1,6 @@
+{
+    "serverPost" : 5000,
+    "db" : "mongodb+srv://dimonbelenok:dima5257623@cluster0.dyakwt3.mongodb.net/?retryWrites=true&w=majority",
+    "secretKey" : "mernStack",
+    "filePath" : "C:\\Users\\alexa\\Desktop\\Front-End\\express\\server\\files"
+}
