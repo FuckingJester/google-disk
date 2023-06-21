@@ -6,7 +6,7 @@
   "proxy": "http://localhost:5000",
   "scripts": {
     "test": "nodemon index.js",
-    "start": "set NODE_ENV=production&& node index.js"
+    "start": "node index.js"
   },
   "author": "Dima",
   "license": "ISC",

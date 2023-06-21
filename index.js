@@ -7,9 +7,9 @@ const fileRouter = require('./routes/file.route.js')
 const corsMiddleware = require('./middleware/cors.middleware.js')
 const app = express();
 const PORT = process.env.PORT || 5000;
-const MONGO = process.env.DB
+const MONGO = config.get('db')
 
-
+console.log(MONGO)
 
 app.use(fileUpload({}))
 app.use(corsMiddleware)
