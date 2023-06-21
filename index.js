@@ -1,4 +1,5 @@
 const express = require("express");
+require('dotenv').config()
 const config = require("config")
 const mongoose = require('mongoose');
 const fileUpload = require('express-fileupload');
