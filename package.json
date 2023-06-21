@@ -10,6 +10,9 @@
   },
   "author": "Dima",
   "license": "ISC",
+  "engines": {
+    "node": "^14.20.1"
+  },
   "dependencies": {
     "bcrypt": "^5.1.0",
     "config": "^3.3.9",
