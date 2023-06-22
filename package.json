@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "proxy": "http://localhost:5000",
   "scripts": {
     "test": "nodemon index.js",
     "start": "node index.js"
